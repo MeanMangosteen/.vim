@@ -1,7 +1,7 @@
 # Usage
 ```sh
 # recursive clones all submodules (vim plugins)
-cd ~ &&  git clone --recursive https://github.com/username/reponame.git
+cd ~ &&  git clone --recursive https://github.com/ll-aashwin-ll/.vim.git
 
 # link version controled vim config file to a place where vim can find it
 ln -s .vim/.vimrc ~/.vimrc
