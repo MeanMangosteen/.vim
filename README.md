@@ -4,7 +4,7 @@
 cd ~ &&  git clone --recursive https://github.com/ll-aashwin-ll/.vim.git
 
 # link version controled vim config file to a place where vim can find it
-ln -s .vim/.vimrc ~/.vimrc
+ln -s ~/.vim/.vimrc ~/.vimrc
 ```
 
 # Commiting a new plugin
