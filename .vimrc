@@ -36,3 +36,4 @@ set ignorecase
 set smartcase
 
 color darkblue
+set mouse=a
