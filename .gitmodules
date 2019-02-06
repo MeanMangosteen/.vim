@@ -43,3 +43,9 @@
 [submodule "bundle/vim-swap"]
 	path = bundle/vim-swap
 	url = https://github.com/machakann/vim-swap
+[submodule "bundle/recover.vim"]
+	path = bundle/recover.vim
+	url = https://github.com/chrisbra/recover.vim
+[submodule "bundle/vim-gutentags"]
+	path = bundle/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags

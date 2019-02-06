@@ -34,3 +34,5 @@ map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 " More palatable searching 
 set ignorecase
 set smartcase
+
+color darkblue
