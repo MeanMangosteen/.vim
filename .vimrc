@@ -37,3 +37,21 @@ set smartcase
 
 color darkblue
 set mouse=a
+
+
+" ========= NERD Commenter ========== 
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1" Add spaces after comment delimiters by default let g:NERDSpaceDelims = 1  " Use compact 
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+" Add your own custom formats or override the defaults
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+
+
+"========== VIM UNDO FILE ==========  
+set undofile   " Maintain undo history between sessions
+set undodir=~/.vim/undodir
