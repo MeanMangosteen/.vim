@@ -49,3 +49,9 @@
 [submodule "bundle/vim-gutentags"]
 	path = bundle/vim-gutentags
 	url = https://github.com/ludovicchabant/vim-gutentags
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/vim-ember-hbs"]
+	path = bundle/vim-ember-hbs
+	url = https://github.com/joukevandermaas/vim-ember-hbs.git
