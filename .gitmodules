@@ -55,3 +55,6 @@
 [submodule "bundle/vim-ember-hbs"]
 	path = bundle/vim-ember-hbs
 	url = https://github.com/joukevandermaas/vim-ember-hbs.git
+[submodule "bundle/vim-better-whitespace"]
+	path = bundle/vim-better-whitespace
+	url = https://github.com/ntpeters/vim-better-whitespace

@@ -27,11 +27,11 @@ let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 
-" ctags 
+" ctags
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
-" More palatable searching 
+" More palatable searching
 set ignorecase
 set smartcase
 
@@ -39,11 +39,11 @@ color darkblue
 set mouse=a
 
 
-" ========= NERD Commenter ========== 
+" ========= NERD Commenter ==========
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
 " Use compact syntax for prettified multi-line comments
-let g:NERDCompactSexyComs = 1" Add spaces after comment delimiters by default let g:NERDSpaceDelims = 1  " Use compact 
+let g:NERDCompactSexyComs = 1" Add spaces after comment delimiters by default let g:NERDSpaceDelims = 1  " Use compact
 " Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
 " Enable trimming of trailing whitespace when uncommenting
@@ -52,6 +52,19 @@ let g:NERDTrimTrailingWhitespace = 1
 let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
 
 
-"========== VIM UNDO FILE ==========  
+"========== VIM UNDO FILE ==========
 set undofile   " Maintain undo history between sessions
 set undodir=~/.vim/undodir
+
+"========== WHITESPACE MODULE ==========
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
+
+" ========== DISABLE hjkl MOVENTMENT ==========
+" noremap h <NOP>
+" noremap j <NOP>
+" noremap k <NOP>
+" noremap l <NOP>
+
+" set line numbers
+set number
